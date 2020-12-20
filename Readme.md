@@ -16,7 +16,8 @@ Contents:
 
 Credits:
 
-- [GAN](https://github.com/Kyushik/Generative-Model.git)
+- [GAN_Notebooks](https://github.com/Kyushik/Generative-Model.git)
+- [GAN_TF](https://github.com/hwalsuklee/tensorflow-generative-model-collections)
 
 
 
