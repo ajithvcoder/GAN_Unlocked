@@ -4,13 +4,22 @@ Pytorch implementation of [GAN_Papers](https://github.com/Kyushik/Generative-Mod
 
 This repo provides explanations with references for loss function used in different types of GAN which is a critical part of neural network for its progress.
 
+Also it provides end to end explanation for entire code 
+
 Contents:
 
 - Warm_up - contains basic codes to caculate loss function in pytorch with two methods
 
     Loss function explanation - 
 
-- GAN - Generative Adverserial Networks 
+- GAN - Generative Adverserial Networks , 
+
+    - [Notebook](GAN/GAN_notebook.ipynb)
+
+    - Executing python file 
+
+            cd GAN/
+            python gan.py
 
     - Loss function explanation - 
 
@@ -39,6 +48,9 @@ Contents:
         - discriminators predictions for generated images -> generated/fake loss
 
          ```d_loss = (real_loss + fake_loss)/2``` 
+    - DC_GAN - Deep Convolutional Generative Adverserial Networks
+
+        Same as GAN
 
 
 
