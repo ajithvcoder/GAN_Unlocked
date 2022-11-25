@@ -1,16 +1,14 @@
 ## Generative Adverserial Network
 
-Pytorch implementation of [GAN_Papers](https://github.com/Kyushik/Generative-Model.git) repository.
-
 This repo provides explanations with references for loss function used in different types of GAN which is a critical part of neural network for its progress.
 
 Also it provides end to end explanation for entire code
 
-Contents:
+**Contents**
 
 S.NO | Topic Name | Usage | Link
 ---  | ---------  | ----- | ----
-1    | Warm_up    | contains basic codes to caculate loss function in pytorch with two methods        | [here](./001_warm_up/)
+1    | Warm_up    | contains basic codes to caculate loss function in pytorch and basic python        | [here](./001_warm_up/)
 2    |  GAN        |      |
 3    |  DC GAN     |      |
 4    | Vanilla GAN | Generate Handwritten Digits|
@@ -26,6 +24,14 @@ S.NO | Topic Name | Usage | Link
 
 **Results**
 
+**WarmUp**
+
+- python neural network
+
+![Result](./001_warm_up/assets/xor_python_result.png)
+
+- pytorch neural network
+![Result](./001_warm_up/assets/xor_pytorch_result.png)
 
 
 **Credits:**
